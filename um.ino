@@ -1,16 +1,15 @@
 /*	File #1
 
-	A abordar: funções do arduino(loop e setup)
-	o que são pins (digitais e analógicos)
-	funções do arduino(pinMode, digitalWrite, delay)
-	comentários
-	
-	como guardar/carregar scripts de arduino/perifericos	
+	A abordar: funÃ§Ãµes do arduino(loop e setup)
+	o que sÃ£o pins (digitais e analÃ³gicos)
+	funÃ§Ãµes do arduino(pinMode, digitalWrite, delay)
+	comentÃ¡rios
+		
 */
 
 void setup()
 {
-	//declaração de pin de output/input
+	//declaraÃ§Ã£o de pin de output/input
 	pinMode(8, OUTPUT);
 }
 
