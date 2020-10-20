@@ -1,0 +1,7 @@
+﻿DEL colorido 1 ligado a pin 5 com valores D, G
+DEL colorido 2 ligado a pin 6 com valores D, Y
+DEL colorido 3 ligado a pin 8 com valores D, R
+Deslizante Analógico 1 ligado a pin A0 
+USB Serial 1 ligado a pins 1, 0 com valor 9600
+Ecrã TFT 1 ligado a pins 11, -1, 13, 10 
+Motor DC 1 ligado a pins 9, 7, -1 com valores F, 0, 
