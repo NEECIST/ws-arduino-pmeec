@@ -1,7 +1,7 @@
 /*	File #3
 
-	A abordar: utilizaÁ„o de analogRead
-	utilizaÁ„o de funÁıes com argumentos
+	A abordar: utiliza√ß√£o de analogRead
+	utiliza√ß√£o de fun√ß√µes com argumentos
 	if/else statement
 	
 				
@@ -12,17 +12,17 @@ int redLedPin = 8;
 int yellowLedPin = 6;
 int greenLedPin = 5;
 int potentiometerPin = A0;
-int read;
+int read = 0;
 
-//funÁ„o com um argumento de entrada
+//fun√ß√£o com um argumento de entrada
 void turnOnLed(int distance){
-
+//a vari√°vel distance est√° a ser declarada como argumento da fun√ß√£o e a ser utilizada dentro da mesma. logo n√£o podemos existe fora desta fun√ß√£o
 	//if/else statement
 	if(distance <400){
 		digitalWrite(redLedPin,HIGH);
 		digitalWrite(yellowLedPin,LOW);
 		digitalWrite(greenLedPin,LOW);
-	}else if(distance >400 && distance <700){
+	}else if(distance >=400 && distance <700){
 		digitalWrite(redLedPin,LOW);
 		digitalWrite(yellowLedPin,HIGH);
 		digitalWrite(greenLedPin,LOW);
@@ -46,7 +46,7 @@ void loop()
 {
 	//ler valor do potenciometro
 	read = analogRead(potentiometerPin);
-	//chamar a funÁ„o dando como argumento o valor do potenciometro
+	//chamar a fun√ß√£o dando como argumento o valor do potenciometro
 	turnOnLed(read);
 	delay(10);
 }
