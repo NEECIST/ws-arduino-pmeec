@@ -1,19 +1,19 @@
 /*	File #4
 
-	A abordar: utilização de analogRead
-	utilização de funções com argumentos
+	A abordar: utilizaÃ§Ã£o de analogRead
+	utilizaÃ§Ã£o de funÃ§Ãµes com argumentos
 	if/else statement
 	
 				
 */
 
-//declaração de pins de motor e o valor a escrever no motor
+//declaraÃ§Ã£o de pins de motor e o valor a escrever no motor
 int motorPinDir = 7;
 int motorPinPwm = 9;
-int write;
+int write = 0;
 
 int potentiometerPin = A0;
-int read;
+int read = 0;
 int redLedPin = 8;
 int yellowLedPin = 6;
 int greenLedPin = 5;
@@ -23,7 +23,7 @@ void turnOnLed(int distance){
 		digitalWrite(redLedPin,HIGH);
 		digitalWrite(yellowLedPin,LOW);
 		digitalWrite(greenLedPin,LOW);
-	}else if(distance >400 && distance <700){
+	}else if(distance >=400 && distance <700){
 		digitalWrite(redLedPin,LOW);
 		digitalWrite(yellowLedPin,HIGH);
 		digitalWrite(greenLedPin,LOW);
@@ -33,7 +33,7 @@ void turnOnLed(int distance){
 		digitalWrite(greenLedPin,HIGH);
 	}
 }
-//função que controla o motor consoante o valor de read
+//funÃ§Ã£o que controla o motor consoante o valor de read
 void motorControl(int value){
 	if(value<400){
 		write = 0;
@@ -47,7 +47,7 @@ void motorControl(int value){
 
 void setup()
 {
-	//declaração do pin Dir do motor como HIGH permanentemente
+	//declaraÃ§Ã£o do pin Dir do motor como HIGH permanentemente
 	pinMode(motorPinDir, OUTPUT);
 	pinMode(motorPinPwm, OUTPUT);
 
