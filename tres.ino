@@ -16,7 +16,7 @@ int read = 0;
 
 //função com um argumento de entrada
 void turnOnLed(int distance){
-//a variável distance está a ser declarada como argumento da função e a ser utilizada dentro da mesma. logo não podemos existe fora desta função
+//a variável distance está a ser declarada como argumento da função e a ser utilizada dentro da mesma. logo não existe fora desta função
 	//if/else statement
 	if(distance <400){
 		digitalWrite(redLedPin,HIGH);
