@@ -21,8 +21,8 @@ Este workshop for pensado e dinamizado para apresentar na aula de Portfólio MEE
   - Declaração de funções
 - Experiência 3
   - Utilização de analogRead
-	- Utilização de funções com argumentos
-	- If/Else statement
+  - Utilização de funções com argumentos
+  - If/Else statement
 - Experiência 4
   - Utilização de analogRead
   - Utilização de funções com argumentos
