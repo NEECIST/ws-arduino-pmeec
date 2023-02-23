@@ -2,6 +2,8 @@
 ![](https://img.shields.io/badge/Apresentado-Sim-brightgreen) 
 ![](https://img.shields.io/badge/Alterações-Pendente-yellow)
 ![](https://img.shields.io/badge/Review-Pendente-blue)
+![](https://img.shields.io/badge/PúblicoAlvo-PrimeiroAno-red)
+
 
 
 Este workshop foi criado e apresentado virtualmente com recurso a um simulador de ambiente Arduino. O seu objetivo é fazer várias experiências para demonstrar as capacidade do Arduino desde simples controlo de Leds até medição de valores analógicos com um Potenciómetro. Está dividido em 4 Experiências sendo que apresentam alguma continuidade. O ficheiro config.txt apresenta as ligações feitas para a criação do circuito.
