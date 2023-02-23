@@ -4,9 +4,7 @@
 ![](https://img.shields.io/badge/Review-Pendente-blue)
 
 
-
-
-Este workshop foi criado e apresentado virtualmente com recurso a um simulador de ambiente Arduino. O seu objetivo é fazer várias experiências para demonstrar as capacidade do Arduino desde simples controlo de Leds até medição de valores analógicos com um Potenciómetro.
+Este workshop foi criado e apresentado virtualmente com recurso a um simulador de ambiente Arduino. O seu objetivo é fazer várias experiências para demonstrar as capacidade do Arduino desde simples controlo de Leds até medição de valores analógicos com um Potenciómetro. Está dividido em 4 Experiências sendo que apresentam alguma continuidade. O ficheiro config.txt apresenta as ligações feitas para a criação do circuito.
 
 Este workshop for pensado e dinamizado para apresentar na aula de Portfólio MEEC. Por isso, apesar das experiências serem simples, são abordados conceitos mais complexos como tipos de variáveis e seus tamanhos.
 
